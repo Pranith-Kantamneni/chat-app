@@ -1,3 +1,4 @@
+
 body, html {
     margin: 0;
     padding: 0;
@@ -71,6 +72,9 @@ body, html {
      margin-top :auto;
 }
 
+#green{
+  align-self: flex-start;
+}
 .blue {
     background-color: #cce5ff;
     align-self: flex-end;
