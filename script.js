@@ -26,7 +26,7 @@ function sendMessage() {
         const timestamp = document.createElement('div');
         timestamp.className = 'timestamp';
         const now = new Date();
-        const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+        const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
         timestamp.textContent = timeString;
 
         // Append the message and timestamp to the message container
