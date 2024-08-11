@@ -15,8 +15,7 @@ body, html {
 .left-context-menu {
     background-color: red;
     width: 20%;
-    display: none; /* Hidden by default for mobile view */
-}
+    display: none; 
 
 .chat-container {
     flex: 1;
@@ -38,16 +37,15 @@ body, html {
 .chat-box {
     flex: 1;
     padding: 10px;
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: auto; 
     display: flex;
-    flex-direction: column; /* Stack messages from top to bottom */
-    scroll-behavior: smooth; /* Enable smooth scrolling */
-}
+    flex-direction: column; 
+    scroll-behavior: smooth; }
 
 .message-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Align to the right */
+    align-items: flex-end; 
     margin: 5px 0;
 }
 
