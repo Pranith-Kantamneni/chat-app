@@ -15,7 +15,8 @@ body, html {
 .left-context-menu {
     background-color: red;
     width: 20%;
-    display: none; 
+    display: none;
+}
 
 .chat-container {
     flex: 1;
